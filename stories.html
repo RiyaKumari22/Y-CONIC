@@ -158,10 +158,7 @@ By integrating education, AI-driven analysis, and youth leadership, Y-CONIC aims
            title="Please enter a valid Gmail address (e.g., user@gmail.com)" 
            required>
 
-    <label for="number">Contact Number:</label>
-<input type="text" id="number" name="number"
-       pattern="\d{10}" maxlength="10"
-       title="Enter a 10-digit number" required>
+    
 
     <label for="message">Message:</label>
     <textarea id="message" name="message"></textarea>
@@ -253,7 +250,6 @@ document.getElementById('form').addEventListener('submit', function (e) {
   const name = this['name'].value.trim();
   const email = this['email'].value.trim();
   
-  const number = this['number'].value.trim();
   const message = this['message'].value.trim();
   // const interest = this['interest'].value;
 
